@@ -47,6 +47,7 @@ collections:
   - name: "attorneys"
     label: "Attorneys"
     folder: "src/pages/attorneys"
+    create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
